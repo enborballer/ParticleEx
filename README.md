@@ -317,12 +317,17 @@ This section focuses on the optional features that ParticleEx provides. Some of 
 
 * Download the archive from [Releases section](https://github.com/Fire-Head/ParticleEx/releases)
 * Extract `ParticleEx.asi`, `ParticleEx.ini` and `ParticleEx` folder into your GTA 3/GTA Vice City root or `scripts/` directory
-  * If you're using modloader, alternatively you can put everything into a subdirectory inside the `modloader/` and add these lines to your `modloader/modloader.ini`:
+  * If you're using modloader, alternatively you can put everything into a subdirectory inside the `modloader/` and add these lines to your `modloader/modloader.ini`(make sure the paths are correct):
       ```ini
     [Profiles.Default.IgnoreFiles]
     ; Put wildcard to files to be ignored here (e.g. cheetah.dff, *.dff, path_in_mod/*.dff)
-    particle.cfg
-    particle.txd
+    ; XBOX2 is VC Only
+    ParticleEx\PS2\PARTICLE.CFG
+    ParticleEx\PS2\PARTICLE.TXD
+    ParticleEx\XBOX\particle.cfg
+    ParticleEx\XBOX\particle.txd
+    ParticleEx\XBOX2\particle.cfg
+    ParticleEx\XBOX2\particle.txd
       ```
 > [!IMPORTANT]
 > [UAL](https://github.com/ThirteenAG/Ultimate-ASI-Loader) is required to run the mod!
