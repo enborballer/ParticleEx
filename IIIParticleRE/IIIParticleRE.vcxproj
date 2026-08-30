@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F3248126-A7B1-4995-B3EB-4CF27D880696}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>IIIParticleRE</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetExt>.asi</TargetExt>
+    <OutDir>$(SolutionDir)$(Configuration)\III\</OutDir>
+    <TargetName>IIIParticleEx</TargetName>
+    <IncludePath>.\;..\;.\game\RW33\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;IIIPARTICLERE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateMapFile>false</GenerateMapFile>
+    </Link>
+    <PreBuildEvent>
+      <Command>..\buildnumber.exe</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\inc\Errors.cpp" />
+    <ClCompile Include="..\inc\IniReader.cpp" />
+    <ClCompile Include="..\inc\String.cpp" />
+    <ClCompile Include="..\inc\Utils.cpp" />
+    <ClCompile Include="CVersion.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="game\CCamera.cpp" />
+    <ClCompile Include="game\cDMAudio.cpp" />
+    <ClCompile Include="game\CFileMgr.cpp" />
+    <ClCompile Include="game\CGeneral.cpp" />
+    <ClCompile Include="game\CMatrix.cpp" />
+    <ClCompile Include="game\CModelInfo.cpp" />
+    <ClCompile Include="game\CParticle.cpp" />
+    <ClCompile Include="game\CParticleObject.cpp" />
+    <ClCompile Include="game\CShadows.cpp" />
+    <ClCompile Include="game\CSprite.cpp" />
+    <ClCompile Include="game\CTimer.cpp" />
+    <ClCompile Include="game\CTxdStore.cpp" />
+    <ClCompile Include="game\CVector.cpp" />
+    <ClCompile Include="game\CWorld.cpp" />
+    <ClCompile Include="game\RenderWare.cpp" />
+    <ClCompile Include="hook\hook.cpp" />
+    <ClCompile Include="ParticleArray.cpp" />
+    <ClCompile Include="ParticleEx.cpp" />
+    <ClCompile Include="ParticleMgrPS2.cpp" />
+    <ClCompile Include="ParticleMgrXbox.cpp" />
+    <ClCompile Include="ParticlePS2.cpp" />
+    <ClCompile Include="ParticleXbox.cpp" />
+    <ClCompile Include="PObjectMgr.cpp" />
+    <ClCompile Include="settings.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\CPatch.h" />
+    <ClInclude Include="..\inc\debugmenu_public.h" />
+    <ClInclude Include="..\inc\Errors.h" />
+    <ClInclude Include="..\inc\IniReader.h" />
+    <ClInclude Include="..\inc\String.h" />
+    <ClInclude Include="..\inc\Utils.h" />
+    <ClInclude Include="..\inc\_InlineHook.hpp" />
+    <ClInclude Include="CVersion.h" />
+    <ClInclude Include="ParticleArray.h" />
+    <ClInclude Include="ParticleEx.h" />
+    <ClInclude Include="ParticleMgrPS2.h" />
+    <ClInclude Include="ParticleMgrXbox.h" />
+    <ClInclude Include="ParticlePS2.h" />
+    <ClInclude Include="ParticleXbox.h" />
+    <ClInclude Include="PObjectMgr.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="settings.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

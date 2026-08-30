@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{9714815b-36aa-42f0-9ef7-88face0ad089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{1892799b-ab22-49ed-861c-0e479d0d9db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle\PS2">
+      <UniqueIdentifier>{20495a79-fb54-4ad6-92e2-08adae64ab48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle\Xbox">
+      <UniqueIdentifier>{ddbc54e8-bacb-4c3d-af56-3f9205f74d8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{7f391925-7265-47b6-8366-f51b002157f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ParticlePS2.cpp">
+      <Filter>Particle\PS2</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleMgrPS2.cpp">
+      <Filter>Particle\PS2</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleXbox.cpp">
+      <Filter>Particle\Xbox</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleMgrXbox.cpp">
+      <Filter>Particle\Xbox</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="ParticleEx.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleArray.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp" />
+    <ClCompile Include="game\cDMAudio.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CParticle.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CParticleObject.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CTimer.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CGeneral.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CVector.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CModelInfo.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CShadows.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CFileMgr.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CMatrix.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CCamera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CTxdStore.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CWorld.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CSprite.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PObjectMgr.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="game\RenderWare.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CVersion.cpp" />
+    <ClCompile Include="hook\hook.cpp" />
+    <ClCompile Include="..\inc\IniReader.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\String.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\Errors.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\Utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ParticleMgrPS2.h">
+      <Filter>Particle\PS2</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticlePS2.h">
+      <Filter>Particle\PS2</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleMgrXbox.h">
+      <Filter>Particle\Xbox</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleXbox.h">
+      <Filter>Particle\Xbox</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleArray.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEx.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="PObjectMgr.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\IniReader.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\String.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\_InlineHook.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CPatch.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Errors.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\debugmenu_public.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CVersion.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
