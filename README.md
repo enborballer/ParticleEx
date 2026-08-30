@@ -322,12 +322,12 @@ This section focuses on the optional features that ParticleEx provides. Some of 
     [Profiles.Default.IgnoreFiles]
     ; Put wildcard to files to be ignored here (e.g. cheetah.dff, *.dff, path_in_mod/*.dff)
     ; XBOX2 is VC Only
-    ParticleEx\PS2\PARTICLE.CFG
-    ParticleEx\PS2\PARTICLE.TXD
-    ParticleEx\XBOX\particle.cfg
-    ParticleEx\XBOX\particle.txd
-    ParticleEx\XBOX2\particle.cfg
-    ParticleEx\XBOX2\particle.txd
+    ParticleEx\ParticleEx\PS2\PARTICLE.CFG
+    ParticleEx\ParticleEx\PS2\PARTICLE.TXD
+    ParticleEx\ParticleEx\XBOX\particle.cfg
+    ParticleEx\ParticleEx\XBOX\particle.txd
+    ParticleEx\ParticleEx\XBOX2\particle.cfg
+    ParticleEx\ParticleEx\XBOX2\particle.txd
       ```
 > [!IMPORTANT]
 > [UAL](https://github.com/ThirteenAG/Ultimate-ASI-Loader) is required to run the mod!
